@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBuddy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="person-selector">
+        <button class="button person-selector-button active-person" id="arjun-selector">Arjun</button>
+        <button class="button person-selector-button" id="jaspreet-selector">Jaspreet</button>
+      </div>
+      <div class="chat-container">
+        <h2 class="chat-header">Arjun typing...</h2>
+  
+        <div class="chat-messages">
+          <div class="message blue-bg">
+            <div class="message-sender">Arjun</div>
+            <div class="message-text">Hnn ladle, kya haal hai?</div>
+            <div class="message-timestamp">12:30 PM</div>
+          </div>
+          <div class="message gray-bg">
+            <div class="message-sender">Jaspreet</div>
+            <div class="message-text">Bss badia, kat rhi h bhai zindagi. Tu btaa?</div>
+            <div class="message-timestamp">12:31 PM</div>
+          </div>
+        </div>
+  
+        <form class="chat-input-form">
+          <input type="text" class="chat-input" required placeholder="Type here, arjun..." />
+          <button type="submit" class="button send-button">Send</button>
+        </form>
+        <button class="button clear-chat-button">Clear Chat</button>
+      </div>
+  
+      <script src="script.js"></script>
+    </body>
+  </html>
+    
+</body>
+</html>
